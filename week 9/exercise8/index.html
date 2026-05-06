@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project — Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>✅ Task Manager</h1>
+    <p>Add, complete, delete, and save tasks using localStorage.</p>
+  </header>
+
+  <main>
+    <section class="app-card">
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter a new task..." />
+        <button type="submit">Add Task</button>
+      </form>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <p id="task-count">0 tasks</p>
+
+      <ul id="task-list"></ul>
+
+      <button id="clear-completed">Clear Completed</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Week 9 · Exercise 8 · Final Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

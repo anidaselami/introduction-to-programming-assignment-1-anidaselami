@@ -1,0 +1,94 @@
+/* Reset some default spacing */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #3357a6;
+    color: #333;
+}
+
+/* Header */
+#hero {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a90e2;
+}
+
+/* Sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+}
+
+/* First letter styling (pseudo-element) */
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+/* Cards layout */
+.card-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fancy list */
+.fancy-list li {
+    padding: 10px;
+}
+
+/* Alternating colors */
+.fancy-list li:nth-child(odd) {
+    background: #e3f2fd;
+}
+
+.fancy-list li:nth-child(even) {
+    background: #bbdefb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
